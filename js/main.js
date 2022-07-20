@@ -9,8 +9,24 @@ function kalkulator(_par1, _par2) {
 
     if (addition >= 0) {
 
-        /* console.log("Wynik dodawania wynosi:" + addition); */
         console.log(`Wynik dodawania wynosi: ${addition}`);
+    }
+    else {
+
+        console.log("Wynik jest niepoprawny!")
+    }
+
+    if (subtraction >= 0) {
+
+        console.log(`Wynik odejmowania wynosi: ${subtraction}`);
+    }
+    else {
+
+        console.log("Wynik jest niepoprawny!")
+    }
+    if (multiplication >= 0) {
+
+        console.log(`Wynik mnożenia wynosi: ${multiplication}`);
     }
     else {
 
